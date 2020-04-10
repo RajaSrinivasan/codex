@@ -31,7 +31,6 @@ format:
 compile:
   stage: build
   script:
-    - mkdir bin
     - go build -race -ldflags "-extldflags '-static'" -o bin/ ./...
   artifacts:
     paths:
