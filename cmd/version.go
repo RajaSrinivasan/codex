@@ -2,7 +2,7 @@ package cmd
 
 import (
 	"github.com/spf13/cobra"
-	"gitlab.com/RajaSrinivasan/projtemplates/go/cli/impl/version"
+	"gitlab.com/RajaSrinivasan/codex/impl/version"
 )
 
 var versionCmd = &cobra.Command{

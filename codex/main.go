@@ -1,8 +1,6 @@
 package main
 
-import (
-	"gitlab.com/RajaSrinivasan/projtemplates/go/cli/cmd"
-)
+import "gitlab.com/RajaSrinivasan/codex/cmd"
 
 func main() {
 	cmd.Execute()
