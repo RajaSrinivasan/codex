@@ -15,10 +15,15 @@ var verbose bool
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "template",
-	Short: "Command Line utilities template",
+	Use:   "codex",
+	Short: "Code to exaample in graphic form",
+
 	Long: `
-	This is a template project for command line utilities
+	This utility extracts fragments from the input file and generates a graphic
+	file with the fragments. The graphic file can then be imported into other documents
+
+	The output files are in the png format.
+
 	`,
 	Version: "v0.0.0",
 }
@@ -31,9 +36,10 @@ func Execute() {
 }
 
 func init() {
-	cobra.OnInitialize(initConfig)
-	rootCmd.PersistentFlags().StringVar(&cfgFile, "config", "", "config file (default is $HOME/.cli/cli.yaml)")
+	//cobra.OnInitialize(initConfig)
+	//rootCmd.PersistentFlags().StringVar(&cfgFile, "config", "", "config file (default is $HOME/.cli/cli.yaml)")
 	rootCmd.PersistentFlags().BoolVar(&verbose, "verbose", false, "be verbose")
+
 }
 
 func initConfig() {
