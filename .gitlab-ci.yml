@@ -31,7 +31,8 @@ format:
 compile:
   stage: build
   script:
-    - go build -race -ldflags "-extldflags '-static'" -o $CI_PROJECT_DIR/codex
+    - mkdir bin
+    - go build -race -ldflags "-extldflags '-static'" -o bin/ ./...
   artifacts:
     paths:
-      - codex
+      - bin/codex
