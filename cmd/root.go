@@ -25,7 +25,7 @@ var rootCmd = &cobra.Command{
 	The output files are in the png format.
 
 	`,
-	Version: "v0.0.0",
+	Version: "v0.1.0",
 }
 
 func Execute() {

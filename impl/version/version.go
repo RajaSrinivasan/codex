@@ -1,12 +1,12 @@
 package version
 // Go package generator
 // File: version.h
-const buildTime = "Mon Mar 30 2020 14:27:51"
+const buildTime = "Sat Apr 11 2020 20:18:00"
 const versionMajor = 0
-const versionMinor = 0
-const versionBuild = 999
-const repoURL = "git@gitlab.com:projtemplates/go.git"
+const versionMinor = 1
+const versionBuild = 0
+const repoURL = "git@gitlab.com:RajaSrinivasan/codex.git"
 const branchName = "master"
-const shortCommitId = "4e98091"
-const longCommitId = "4e980910fb7765b0d99248bbd960bb073e2a72de"
+const shortCommitId = "8b7e96d"
+const longCommitId = "8b7e96d4656c73d1a58019f3699379b4bdf7b177"
 const assignedTags = ""
