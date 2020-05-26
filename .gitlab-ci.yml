@@ -31,7 +31,7 @@ format:
 compile:
   stage: build
   script:
-    - go build -race -ldflags "-extldflags '-static'" -o bin/ ./...
+    - make setup all test
   artifacts:
     paths:
       - bin/codex
