@@ -11,4 +11,5 @@ setup:
 	-mkdir $(BIN)
 
 clean:
-	rm -rf $(BIN)
+	-$(RM) -rf $(BIN)
+	-$(RM) -f *.png
